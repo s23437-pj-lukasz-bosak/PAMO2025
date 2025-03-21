@@ -7,7 +7,7 @@
     android:padding="16dp"
     android:gravity="center">
 
-    <!-- Pole do wprowadzania wagi -->
+    
 <EditText
 android:id="@+id/weightInput"
 android:layout_width="match_parent"
