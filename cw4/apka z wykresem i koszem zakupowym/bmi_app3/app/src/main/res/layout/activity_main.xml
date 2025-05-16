@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#121212"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Pole do wprowadzania wagi -->
+    <EditText
+        android:id="@+id/weightInput"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="@string/weight_hint"
+        android:inputType="numberDecimal"
+        android:backgroundTint="#BB86FC"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:padding="16dp" />
+
+    <!-- Pole do wprowadzania wzrostu -->
+    <EditText
+        android:id="@+id/heightInput"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="@string/height_hint"
+        android:inputType="numberDecimal"
+        android:backgroundTint="#BB86FC"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:layout_marginTop="16dp"
+        android:padding="16dp" />
+
+    <!-- Przycisk do obliczenia BMI -->
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="@string/calculate_bmi"
+        android:backgroundTint="#3700B3"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp"
+        android:padding="16dp" />
+
+    <!-- Nowy przycisk do kalkulatora kalorii -->
+    <Button
+        android:id="@+id/openCalorieCalculator"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="@string/calculate_calorie_button"
+        android:backgroundTint="#3700B3"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp"
+        android:padding="16dp" />
+
+    <!-- Wynik BMI -->
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/result_bmi"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="32dp"
+        android:gravity="center" />
+<!--button lista zakupow-->
+    <Button
+        android:id="@+id/btnOpenShopping"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lista zakupów"
+        android:layout_marginTop="16dp"/>
+<!--button wykres-->
+    <Button
+        android:id="@+id/openBmiChart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wykres BMI"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

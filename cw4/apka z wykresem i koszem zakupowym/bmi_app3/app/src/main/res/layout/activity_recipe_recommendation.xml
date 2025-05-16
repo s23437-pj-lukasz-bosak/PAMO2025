@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#121212"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Tytuł ekranu -->
+    <TextView
+        android:id="@+id/recommendationTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/recommendation_title"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Przepis 1 -->
+    <TextView
+        android:id="@+id/recipe1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#BB86FC"
+        android:padding="16dp"
+        android:background="#1F1B24" />
+
+    <!-- Przepis 2 -->
+    <TextView
+        android:id="@+id/recipe2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="#BB86FC"
+        android:padding="16dp"
+        android:background="#1F1B24" />
+
+    <!-- Opcjonalny przycisk powrotu -->
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Wróć"
+        android:backgroundTint="#3700B3"
+        android:textColor="#FFFFFF"
+        android:padding="16dp" />
+
+</LinearLayout>
